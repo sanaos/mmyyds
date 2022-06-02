@@ -40,98 +40,6 @@
       "filterable": 0,
       "ext": "https://ghproxy.com/https://raw.githubusercontent.com/sanaos/mmyyds/main/XBiubiu/AV01.txt"
     },
-    {
-            "key":"csp_77",
-            "name":"??77〔SP〕",
-            "type":3,
-            "api":"csp_Kunyu77",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":1
-        },
-         {
-            "key":"csp_蓝光影院",
-            "name":"??蓝光影院〔SP〕",
-            "type":3,
-            "api":"csp_Lgyy",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":1
-        },
-         {
-            "key":"csp_在线之家",
-            "name":"??在线之家〔SP〕",
-            "type":3,
-            "api":"csp_Zxzj",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":1
-        },
-         {
-            "key":"csp_厂长资源",
-            "name":"??厂长资源(SP)",
-            "type":3,
-            "api":"csp_CZSPP",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":0
-        },
-         {
-            "key":"csp_低端影视",
-            "name":"??低端影视(SP)",
-            "type":3,
-            "api":"csp_DiDuan",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":0
-        },
-         {
-            "key":"csp_喵狸盘搜",
-            "name":"??喵狸盘搜（仅支持搜索）",
-            "type":3,
-            "api":"csp_AliPanSou",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":0
-        },
-         {
-            "key":"csp_饭团",
-            "name":"??饭团〔SP〕",
-            "type":3,
-            "api":"csp_Fantuan",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":1
-        },
-         {
-            "key":"csp_纸条",
-            "name":"??纸条〔SP〕",
-            "type":3,
-            "api":"csp_GitCafe",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":0
-        },
-         {
-            "key":"csp_奇粹",
-            "name":"??奇粹(SP)",
-            "type":3,
-            "api":"csp_Qicui",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":1,
-            "ext":""
-        },
-         {
-            "key":"csp_泥巴",
-            "name":"??泥巴(SP)",
-            "type":3,
-            "api":"csp_Nbys",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":1,
-            "ext":""
-        },
          {
             "key":"csp_Cokemv",
             "name":"??Cokemv(SP)",
@@ -370,7 +278,7 @@
       "group": "redirect",
       "channels": [
         {
-          "name": "redirect",
+          "name": "live",
           "urls": [
             "proxy://do=live&type=txt&ext=aHR0cDovLzgxLjcwLjc3LjU6NzgwMC90di8="
           ]
@@ -379,6 +287,26 @@
     }
   ],
   "parses": [
+    {
+      "name": "293",
+      "type": 1,
+      "url": "http://81.71.48.249:4456/jsonc/longxia.php?url=",
+      "ext": {
+          "flag": [
+              "qq",
+              "qiyi",
+              "mgtv",
+              "youku",
+              "letv",
+              "sohu",
+              "xigua",
+              "1905"
+          ],
+          "header": {
+              "User-Agent": "Dart/2.14 (dart:io)"
+          }
+      }
+    },
     {
       "name": "解析聚合",
       "type": 3,
